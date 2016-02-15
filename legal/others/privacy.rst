@@ -1,0 +1,6 @@
+==============
+Privacy Policy
+==============
+
+Privacy policy...
+
