@@ -4,9 +4,9 @@
 Expenses
 =============================================================
 
-How to create expense products
+How to set expense types
 ==============================
-The first step to track expenses is to configure the type of expenses 
+The first step to track expenses is to configure the expense types (managed as products in Odoo)
 that your company allows, from the *Configuration* menu. 
 When a specific expense is reimbursed at a fixed price, set a cost on the product.
 Otherwise keep the cost at 0.0 and employees will report the real cost per expense.
@@ -14,7 +14,7 @@ Otherwise keep the cost at 0.0 and employees will report the real cost per expen
 .. image:: ./media/expense_product.png
    :align: center
 
-Here are some examples of products to configure:
+Here are some examples to configure:
 
 * Restaurant:
 
@@ -30,14 +30,15 @@ Here are some examples of products to configure:
 
   * Cost: 0.0
 
-Don’t forget to set an expense account and a tax on each expense type. 
+Don’t forget to set an expense tax on each expense type 
+(and an account if you use Odoo Accounting). 
 It’s usually a good practice to use a tax that is configured 
 with *Tax Included in Price* (see: :doc:`../accounting/others/taxes/tax_included`).
 That way, employees report expenses with 
 prices including taxes, which is usually the expected behaviour.
 
 .. tip:: The *Sales* app allows you to specify unit of measures for your 
-   expense products (units, miles, nights, etc.). 
+   expense types (units, miles, nights, etc.). 
    Go to *Sales > Configuration > Settings* and check *Some products may be 
    sold/purchased in different units of measure (advanced)*.
 
@@ -77,8 +78,8 @@ The only thing to do is setting up an email alias in
 For security purposes, only authenticated employee emails 
 (cfr. *Work Email* in employee detail form) are accepted.
 
-.. tip:: If the mail subject contains the product's internal reference 
-   between brackets, the product will be set automatically. 
+.. tip:: The expense product is set automatically if the mail subject contains 
+   the product's internal reference between brackets (e.g. [Food]). 
    Type the expense amount in the mail subject to set it on the expense too.
 
 How to submit expenses to managers
@@ -169,7 +170,7 @@ Setup
   Analytic Accounting* (in Recommended Features).
 
 * Go to *Sales > Sales > Products* and set the invoicing method 
-  on all your Expense products:
+  on all your Expense types:
 
   * At cost: will invoice expenses at their real cost.
   * At sales price: will invoice based on a fixed sales price 
