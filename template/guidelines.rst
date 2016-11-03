@@ -1,6 +1,6 @@
-===================================
+=====================
 How to write user doc
-===================================
+=====================
 
 How to figure out a topic
 =========================
@@ -44,15 +44,20 @@ How to write
 
 Who is the audience
 -------------------
-Target readers: lambda user, but not too stupid.
+Target readers: lambda user, but not too stupid
 
 * Don't explain how to create/delete documents
 * Focus on business concepts
 
-How to write good content
+How to write cleanly
+--------------------
+* Not more than 80 char per row for easy technical reviews
+* Title underlining must have the extact same length than text
+
+How to write nice content
 -------------------------
 * The shorter the better
-* Not more than 80 char per row for easy technical reviews
+
 * Take clean screenshots (smaller possible, cut if needed, 
   with red frames/circles to emphasize on important buttons, fields)
 
@@ -63,13 +68,12 @@ How to write good content
 .. image:: ./media/template_guidelines_01.png
    :align: center
 
-.. tip:: Tips are always good for advanced features and to make the main paragraph 
-   lighter.
+* Write a ``Button`` this fashion (e.g. click on ``Action``). 
+  Write the text exactly like in the system, respecting the case. 
+  It's ok to have an uppercase here.
 
-.. note:: When naming a button, write the text exactly like in the button, 
-   respecting the case. It's ok to have an uppercase here. When you use the 
-   name of a app, menu or field, put it *italic*. e.g. 
-   Once in *Sales Orders* menu, click the *More* Button.
+* When you use the name of an **App** or a **Menu**, put it in **bold** (e.g. 
+  Once in **Sales Orders** menu...)
 
 * Give navigation paths for advanced handlings: e.g. go to 
   a :menuselection:`Inventory --> My Account --> Overview`. Just give the menu 
@@ -84,6 +88,10 @@ How to write good content
 .. demo:action:: sale.action_orders
 
    Create a Quotation
+
+.. tip:: Tips are always good for advanced features.
+
+.. note:: Notes are also appreciated to keep remarks out of the main paragraph.
 
 * Add links to related business topics at the bottom (can be in others apps)
 
