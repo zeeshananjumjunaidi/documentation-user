@@ -221,12 +221,12 @@ latex_additional_files = ['_static/latex/odoo.sty']
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-  ('legal/terms/enterprise_tex', 'odoo_enterprise_agreement_v5.tex', 'Odoo Enterprise Subscription Agreement', '', 'howto'),
-  ('legal/terms/i18n/enterprise_tex_fr', 'odoo_enterprise_agreement_v5_fr.tex', 'Odoo Enterprise Subscription Agreement (FR)', '', 'howto'),
-  ('legal/terms/partnership_tex', 'odoo_partnership_agreement_v5.tex', 'Odoo Partnership Agreement', '', 'howto'),
-  #('index', 'UnderstandingAccountingForEntrepreneurs.tex', u'Understanding Accounting For Entrepreneurs Documentation', u'fp, xmo', 'manual'),
-]
+# latex_documents = [
+#   ('legal/terms/enterprise_tex', 'odoo_enterprise_agreement_v5.tex', 'Odoo Enterprise Subscription Agreement', '', 'howto'),
+#   ('legal/terms/i18n/enterprise_tex_fr', 'odoo_enterprise_agreement_v5_fr.tex', 'Odoo Enterprise Subscription Agreement (FR)', '', 'howto'),
+#   ('legal/terms/partnership_tex', 'odoo_partnership_agreement_v5.tex', 'Odoo Partnership Agreement', '', 'howto'),
+#   #('index', 'UnderstandingAccountingForEntrepreneurs.tex', u'Understanding Accounting For Entrepreneurs Documentation', u'fp, xmo', 'manual'),
+# ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.

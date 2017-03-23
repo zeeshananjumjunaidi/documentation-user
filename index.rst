@@ -7,6 +7,6 @@ Odoo User Documentation
 .. toctree::
     :titlesonly:
 
-    Index <self>
+    .. Index <self>
     applications
-    practical
+    .. practical
