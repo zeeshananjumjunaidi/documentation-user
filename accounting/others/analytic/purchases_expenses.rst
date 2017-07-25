@@ -40,7 +40,7 @@ Enable Analytical accounting
 ----------------------------
 
 Next step is to activate the analytical accounting. In the accounting
-app, select :menuselection:`Configuration --> Settings` and thick the Analytic
+app, select :menuselection:`Configuration --> Settings` and tick the Analytic
 accounting box.
 
 .. image:: media/purchase05.png
